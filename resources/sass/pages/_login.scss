@@ -1,0 +1,53 @@
+main{
+    height:100%;
+    &.wrapper{
+        &_login{
+            background-color:$wrapper-default;
+            border-radius: 20px;
+        .short-nav{
+            width:calc(100% / 2);
+            margin-left:auto;
+            margin-right:auto;
+
+            .fas{
+                font-size:1.8rem;
+                color: $details-default;
+            }
+            h2{
+                display: inline-block;
+            }
+        }
+        .login-side{
+            width:calc(100% / 2);
+            margin-top:30px;
+            margin-left:auto;
+            margin-right:auto;
+            box-sizing: border-box;
+            label:not(.check){
+                flex-basis:25%;
+                padding:8px 0 5px;
+            }
+            input{
+                flex-basis:60%;
+            }
+            .field{
+                &_remember{
+                    margin-left: 25%;
+                    padding:10px  0px;
+                    label{
+                        padding:0
+                    }
+                }
+                &_submit{
+                    div{
+                        padding:10px 0;
+                        margin-left: 25%;
+                    }
+                }
+            }
+            
+
+        }
+        }
+    }
+}

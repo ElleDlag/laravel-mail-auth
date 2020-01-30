@@ -1,0 +1,16 @@
+@import 'app.scss';
+@import 'components/buttons.scss';
+@import 'pages/welcome.scss';
+@import 'pages/login.scss';
+
+body{
+    width:100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+main{
+    height:100%;
+    background-color:$wrapper-default;
+    border-radius: 20px;
+}
